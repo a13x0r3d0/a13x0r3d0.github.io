@@ -1,0 +1,51 @@
+html {
+    height: 100%;
+    font-family: 'Questrial', sans-serif;
+}
+body {
+    /*height: 100%;
+    background: linear-gradient(0deg, rgba(11, 19, 43, 0.5), rgba(11, 19, 43, 1)), url("back.jpg"), url("back2.jpg");
+    position: relative;
+    background-size: cover;
+    min-height: 100%;*/
+    color: #FFFFFF;
+}
+#background_video {
+    background-color: #ffffff1e;
+    z-index: -1111;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.page_content {
+    position: fixed;
+    min-width: 100%;    
+    min-height: 100%;
+    margin: 0, 0, 0, 0;
+    top: 0;
+    left: 25px;
+}
+.page_background_overlay {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    margin: 0, 0, 0, 0;
+    top: 0;
+    right: 0;
+    background: rgba(11, 19, 43, 0.8);
+    backdrop-filter: blur(10px);
+}
+a:link {
+    color: #5BC0BE;
+}
+a:visited {
+    color: #5BC0BE;
+}
+a:hover {
+    color: #FFFFFF;
+}
+a:active {
+    color: #FFFFFF;
+}
